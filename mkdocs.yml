@@ -116,6 +116,7 @@ plugins:
           'user/delegation/reward-claiming.md': 'tech/ftso.md'
           'user/delegation/reward-claiming-faq.md': 'tech/ftso.md'
           'user/delegation/reward-claiming-in-detail.md': 'tech/ftso.md'
+          'user/fassets/minting-redeeming.md': 'user/fassets/index.md'
           'infra/validation/staking-cli.md': 'user/staking/staking-cli.md'
           'infra/observation/faq.md': 'infra/observation/deploying.md'
 
@@ -174,9 +175,6 @@ nav:
       - user/wallets/safepal-s1-wallet.md
       - user/wallets/how-to-access-flare-network-with-a-trezor-device.md
     - user/wrapping-tokens.md
-    - FAssets:
-      - user/fassets/index.md
-      - user/fassets/minting-redeeming.md
     - FTSO Delegation:
       - user/delegation/index.md
       - Managing Delegations: user/delegation/managing-delegations.md
@@ -189,6 +187,10 @@ nav:
       - user/staking/staking-cli.md
     - user/claiming-the-flaredrop.md
     - user/automatic-claiming.md
+    - FAssets:
+      - user/fassets/index.md
+      - user/fassets/minting-redeeming-cli.md
+      - user/fassets/minting-redeeming-dapp.md
     - Governance:
       - user/governance/index.md
       - user/governance/voting.md
@@ -230,6 +232,7 @@ nav:
       - dev/tutorials/ftso/index.md
       - dev/reference/ftso.md
       - dev/tutorials/ftso/getting-data-feeds.md
+      - dev/tutorials/ftso/getting-random-numbers.md
     - State Connector:
       - dev/tutorials/sc/index.md
       - dev/tutorials/sc/address-validity.md
@@ -344,11 +347,12 @@ nav:
     - tech/state-connector.md
     - FAssets:
       - tech/fassets/index.md
-      - tech/fassets/open-beta.md
       - tech/fassets/collateral.md
       - tech/fassets/minting.md
       - tech/fassets/redemption.md
       - tech/fassets/liquidation.md
+      - tech/fassets/open-beta.md
+      - tech/fassets/parameters.md
     - tech/validators.md
     - tech/api-portal.md
   - Concepts:
@@ -377,9 +381,10 @@ nav:
         - infra/data/managing-ecosystem/index.md
         - infra/data/managing-ecosystem/exploring-collusion.md
         - infra/data/managing-ecosystem/monitoring-price-history.md
-    - FAssets Agents:
+    - FAssets:
       - infra/fassets/index.md
       - infra/fassets/agent.md
+      - infra/fassets/liquidator.md
     - Observer Nodes:
       - infra/observation/index.md
       - infra/observation/deploying.md

@@ -1,19 +1,14 @@
-# Minting and Redeeming FAssets
+# Using the Command Line to Mint and Redeem FAssets
 
 Users of the [FAssets](../../tech//fassets/index.md) system can mint and redeem FAssets, allowing tokens on blockchains that do not support smart contracts to be used trustlessly with smart contracts on the Flare blockchain.
 
 This guide provides the following information:
 
 * How to set up the FAssets command-line tool.
-* How to convert testnet XRP to FAssets (FXRP) on the Flare test network (minting).
-* How to convert FAssets (FXRP) from Flare test network back to testnet XRP Ledger network (redemption).
+* How to convert testnet XRP to FAssets (FTestXRP) on the Flare test network (minting).
+* How to convert FAssets (FTestXRP) from Flare test network back to testnet XRP Ledger network (redemption).
 
-!!! info "Open Beta"
-
-    The FAssets system is currently in the [Open Beta](../../tech/fassets/open-beta.md) period.
-    During this phase, user-friendly tools are still being developed.
-
-    --8<-- "./include/fassets/issue-collector.html"
+--8<-- "./include/fassets/open-beta.md"
 
 --8<-- "./include/fassets/setup-commandline.md"
 

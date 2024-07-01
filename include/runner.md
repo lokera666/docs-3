@@ -20,7 +20,7 @@
     3. Initialize project and install dependencies with:
         ```bash
         npm init
-        npm install ethers@6.3 @flarenetwork/flare-periphery-contract-artifacts@0.1.7
+        npm install ethers@6.3 @flarenetwork/flare-periphery-contract-artifacts@0.1.15
         ```
     4. Run the program with:
         ```bash
@@ -43,7 +43,7 @@ async function {{filename | replace('-', '_')}}_runner() {
   };
   try {
     await run{{filename | replace('-', '_') }}(
-{% for param in params %}document.getElementById('{{param.name}}').value,{% endfor %}
+{%- for param in params %}document.getElementById('{{param.name}}').value,{% endfor -%}
     );
   } catch(error) {
     console.log (error.message);
@@ -54,7 +54,7 @@ async function {{filename | replace('-', '_')}}_runner() {
 
 <details class="run-me" id="{{filename}}-run-me-box">
 <summary>Run in browser</summary>
-{% for param in params -%}
+{%- for param in params -%}
 <label for="{{param.name}}">{{param.name}}:</label>
 <input type="text" id="{{param.name}}" name="{{param.name}}" value="{{param.value}}"/>
 {%- endfor %}

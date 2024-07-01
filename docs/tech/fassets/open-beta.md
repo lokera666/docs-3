@@ -1,7 +1,15 @@
+---
+title: Open Beta
+search:
+  boost: 2
+---
+
 # FAssets Open Beta
 
 The FAssets system is currently in the open-beta period on the [Coston](../flare.md#flare-networks) test network.
 To ensure a seamless experience for open-beta participants, the FAssets codebase was updated based on the results of the closed-beta.
+
+Currently, the Open Beta period only supports minting of test `$XRP` assets, which produces `$FtestXRP` FAssets.
 
 ## FAssets Open Beta Objectives
 
@@ -22,14 +30,15 @@ Although other advanced users can join, they can interact with the FAssets syste
 
 !!! info "Open Beta"
 
-    To participate, please begin by joining the [Telegram channel](https://t.me/FlareSupport).
+    To participate, please begin by joining the [Telegram channel](https://t.me/FlareSupport) or contact [support@flarelabs.org](mailto:support@flarelabs.org).
     Thank you for supporting the development of FAssets.
 
     --8<-- "./include/fassets/issue-collector.html"
 
 Following the Coston open beta, the next stage will launch on Songbird.
 
-## Related Docs
+## Related Pages
 
-* [Minting and Redeeming FAssets](../../user/fassets/minting-redeeming.md)
+* [Minting and Redeeming FAssets](../../user/fassets/index.md)
 * [Deploying FAssets Agent](../../infra/fassets/agent.md)
+* [Setting up an FAssets Liquidator](../../infra/fassets/liquidator.md)
